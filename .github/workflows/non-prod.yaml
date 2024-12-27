@@ -8,7 +8,7 @@ name: Build and push image
 on:
   workflow_dispatch:
   push:
-      branches: ['latest']
+      branches: main
   
 env:
   REGISTRY: ghcr.io
